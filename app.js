@@ -8,7 +8,7 @@ app.use((err, req, res, next) => {
     res.status(500).send("Something went wrong!");
 });
 app.get('/', (req, res) => {
-  res.send('For Banyule API processes')
+  res.send('For Banyule API test');
 })
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
