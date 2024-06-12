@@ -2,8 +2,8 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "build": "tsc && npm run minify",
-    "minify": "terser --compress --mangle --output dist/app.min.js -- dist/*.js",
-    "serve": "node dist/app.min.js"
+    "minify": "terser --compress --mangle --output dist/bundle.js -- dist/*.js",
+    "serve": "node dist/bundle.js"
   },
   "dependencies": {
     "@types/bcryptjs": "^2.4.6",
